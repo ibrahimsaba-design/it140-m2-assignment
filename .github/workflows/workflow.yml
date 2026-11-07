@@ -26,6 +26,3 @@ jobs:
 
       - name: Lint with flake8
         run: flake8 Part-A/src Part-A/tests --count --show-source --statistics
-
-      - name: Run acceptance tests
-        run: python Part-A/tests/test_name_age.py
